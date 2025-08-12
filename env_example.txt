@@ -1,0 +1,12 @@
+# Flask Configuration
+FLASK_SECRET_KEY=your-secret-key-change-in-production
+JWT_SECRET_KEY=your-jwt-secret-key-change-in-production
+FLASK_ENV=development
+
+# Model Configuration
+MODEL_PATH=models/kidney_anomaly_model.h5
+UPLOAD_FOLDER=uploads
+MAX_CONTENT_LENGTH=16777216
+
+# Security
+JWT_ACCESS_TOKEN_EXPIRES=24
